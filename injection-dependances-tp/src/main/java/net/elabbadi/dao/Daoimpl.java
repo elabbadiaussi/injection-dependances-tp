@@ -1,0 +1,10 @@
+package net.elabbadi.dao;
+
+public class Daoimpl implements IDao {
+    @Override
+    public double getData() {
+        System.out.println("Version Base de données");
+        double temp = 23;
+        return temp;
+    }
+}
