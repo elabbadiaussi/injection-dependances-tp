@@ -7,9 +7,10 @@ import java.util.Scanner;
 
 public class Pres2 {
     public static void main(String[] args) throws Exception {
-Scanner scanner = new Scanner(
-    Pres2.class.getResourceAsStream("/config.txt")
-);        String daoClassName = scanner.nextLine();
+        Scanner scanner = new Scanner(
+                Pres2.class.getResourceAsStream("/config.txt"));
+        String daoClassName = scanner.nextLine();
+        
         Class cDao = Class.forName(daoClassName);
         IDao dao = (IDao) cDao.newInstance();
 

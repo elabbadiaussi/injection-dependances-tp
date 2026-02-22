@@ -1,2 +1,2 @@
-net.elabbadi.dao.Daoimpl
+net.elabbadi.ext.DaoImplV2
 net.elabbadi.metier.MetierImpl
